@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-Heavy.woff2') format('woff2'),
+        url('../fonts/FilsonPro-Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-Light.woff2') format('woff2'),
+        url('../fonts/FilsonPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-Black.woff2') format('woff2'),
+        url('../fonts/FilsonPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-Bold.woff2') format('woff2'),
+        url('../fonts/FilsonPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-BlackItalic.woff2') format('woff2'),
+        url('../fonts/FilsonPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/FilsonPro-HeavyItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/FilsonPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro Book';
+    src: url('../fonts/FilsonPro-Book.woff2') format('woff2'),
+        url('../fonts/FilsonPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro Book';
+    src: url('../fonts/FilsonPro-BookItalic.woff2') format('woff2'),
+        url('../fonts/FilsonPro-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-MediumItalic.woff2') format('woff2'),
+        url('../fonts/FilsonPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/FilsonPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-Regular.woff2') format('woff2'),
+        url('../fonts/FilsonPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-Thin.woff2') format('woff2'),
+        url('../fonts/FilsonPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-Medium.woff2') format('woff2'),
+        url('../fonts/FilsonPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-ThinItalic.woff2') format('woff2'),
+        url('../fonts/FilsonPro-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('../fonts/FilsonPro-RegularItalic.woff2') format('woff2'),
+        url('../fonts/FilsonPro-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Verveine';
+    src: url('../fonts/Verveine-Regular.woff2') format('woff2'),
+        url('../fonts/Verveine-Regular.woff') format('woff'),
+        url('../fonts/Verveine-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kefir';
+    src: url('../fonts/Kefir-Black.woff2') format('woff2'),
+        url('../fonts/Kefir-Black.woff') format('woff'),
+        url('../fonts/Kefir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kefir';
+    src: url('../fonts/Kefir-Bold.woff2') format('woff2'),
+        url('../fonts/Kefir-Bold.woff') format('woff'),
+        url('../fonts/Kefir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kefir';
+    src: url('../fonts/Kefir-DemiBold.woff2') format('woff2'),
+        url('../fonts/Kefir-DemiBold.woff') format('woff'),
+        url('../fonts/Kefir-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kefir';
+    src: url('../fonts/Kefir-Light.woff2') format('woff2'),
+        url('../fonts/Kefir-Light.woff') format('woff'),
+        url('../fonts/Kefir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kefir';
+    src: url('../fonts/Kefir-Regular.woff2') format('woff2'),
+        url('../fonts/Kefir-Regular.woff') format('woff'),
+        url('../fonts/Kefir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kefir';
+    src: url('../fonts/Kefir-Medium.woff2') format('woff2'),
+        url('../fonts/Kefir-Medium.woff') format('woff'),
+        url('../fonts/Kefir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kefir';
+    src: url('../fonts/Kefir-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Kefir-ExtraBold.woff') format('woff'),
+        url('../fonts/Kefir-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
