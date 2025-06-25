@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Concentrate | Javvy Coffee</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link href="./assets/css/fonts.css" rel="stylesheet">
@@ -211,36 +211,36 @@
                                         </div>
                                         <div class="pricing-section">
                                             <div class="pricing-container" id="options">
-                                                <label class="card active">
+                                                <label class="card active" data-discount="38" data-amount="620" data-oneprice="880" data-quantity="4">
                                                     <div class="best-deal">Best Deal</div>
-                                                    <input type="radio" name="bottle" value="4" data-price="15.37">
+                                                    <input type="radio" name="bottle" value="4">
                                                     <div class="pricing-detail-item">
                                                         <strong>4 Bottles</strong>
-                                                        <p class="subscribed-price">$15.37/each</p>
+                                                        <p class="subscribed-price">$620/each</p>
                                                     </div>
                                                 </label>
 
-                                                <label class="card">
-                                                    <input type="radio" name="bottle" value="3" data-price="16.07">
+                                                <label class="card" data-discount="36" data-amount="640" data-oneprice="920" data-quantity="3">
+                                                    <input type="radio" name="bottle" value="3">
                                                     <div class="pricing-detail-item">
                                                         <strong>3 Bottles</strong>
-                                                        <p class="subscribed-price">$16.07/each</p>
+                                                        <p class="subscribed-price">$640/each</p>
                                                     </div>
                                                 </label>
 
-                                                <label class="card">
-                                                    <input type="radio" name="bottle" value="2" data-price="16.77">
+                                                <label class="card" data-discount="33" data-amount="670" data-oneprice="960" data-quantity="2">
+                                                    <input type="radio" name="bottle" value="2">
                                                     <div class="pricing-detail-item">
                                                         <strong>2 Bottles</strong>
-                                                        <p class="subscribed-price">$16.77/each</p>
+                                                        <p class="subscribed-price">$670/each</p>
                                                     </div>
                                                 </label>
 
-                                                <label class="card">
-                                                    <input type="radio" name="bottle" value="1" data-price="17.47">
+                                                <label class="card" data-discount="30" data-amount="700" data-oneprice="1000" data-quantity="1">
+                                                    <input type="radio" name="bottle" value="1">
                                                     <div class="pricing-detail-item">
                                                         <strong>1 Bottle</strong>
-                                                        <p class="subscribed-price">$17.47/each</p>
+                                                        <p class="subscribed-price">$700/each</p>
                                                     </div>
                                                 </label>
                                             </div>
@@ -249,15 +249,15 @@
                                                 <div class="subscribe-container variant_selections active">
                                                     <input type="radio" name="variant_selection" value="save"
                                                         data-price="variant_subscribe">
-                                                    <div class="highlight">SAVE 38% ON FIRST ORDER</div>
+                                                    <div class="highlight">SAVE <span id="discount-price">38</span>% ON FIRST ORDER</div>
                                                     <div class="variant_selection_content">
                                                         <div class="variant_selection_content_item">
                                                             <h4><strong>Subscribe & Save</strong></h4>
                                                             <p>Every 60 days</p>
                                                         </div>
                                                         <div class="variant_selection_content_item">
-                                                            <span class="old-price">$87.80</span>
-                                                            <span class="new-price">$61.48</span>
+                                                            <span id="oldPriceVariantDiscount" class="old-price">$3520</span>
+                                                            <span id="newPriceVariantDiscount" class="new-price">$2480</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -300,7 +300,7 @@
                                                             <h4>One-time Purchase</h4>
                                                         </div>
                                                         <div class="variant_selection_content_item">
-                                                            <span class="new-price">$87.80</span>
+                                                            <span id="oneTimePurchasePriceVariant" class="new-price">$3520</span>
                                                         </div>
                                                     </div>
                                                 </div>

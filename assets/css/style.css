@@ -1819,30 +1819,35 @@ footer .footer-inner {
         padding: 0px 20px;
         font-size: 18px;
     }
-.happiness-guarantee-container p
- {
-    font-weight: 300;
-    font-size: 15px;
-    margin-bottom: 20px;
-    color: #fff;
-    line-height: 21px;
-}
-.happiness-guarantee-container h2{
+
+    .happiness-guarantee-container p {
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 20px;
+        color: #fff;
+        line-height: 21px;
+    }
+
+    .happiness-guarantee-container h2 {
         font-size: 29px;
-            margin-bottom: 10px;
-}
-.coffee-procedure{
-    padding-left: 10px;
-    padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .coffee-procedure {
+        padding-left: 10px;
+        padding-right: 10px;
         margin-top: 10px;
-    padding-bottom: 30px;
-}
-.coffee-procedure .how-to-make .how-to-make-procedure-heading h2{
-    font-size: 38px;
-}
-.coffee-procedure .how-to-make .how-to-make-procedure-heading span{
+        padding-bottom: 30px;
+    }
+
+    .coffee-procedure .how-to-make .how-to-make-procedure-heading h2 {
+        font-size: 38px;
+    }
+
+    .coffee-procedure .how-to-make .how-to-make-procedure-heading span {
         font-size: 32px;
-}
+    }
+
     .mobile-hamburger span {
         background-color: #2a2552;
         border-radius: 100px;
@@ -1954,28 +1959,45 @@ footer .footer-inner {
     }
 
     .coffee-procedure .how-to-make {
-      flex-direction: column;
+        flex-direction: column;
         grid-row-gap: 50px;
     }
+
     .question_answer {
-    margin-top: 40px;
-}
-.faq-question-answers{
         margin-top: 40px;
-            grid-row-gap: 30px;
-}
-.faq-section-container h2{
-    font-size: 28px;
-}
-.faq-answer{
-    padding: 0px 0px;
-}
-.faq-answer p {
-    font-size: 14px;
-    line-height: 25px;
-}
-button.faq-question
- {
-    line-height: 25px;
-}
+    }
+
+    .faq-question-answers {
+        margin-top: 40px;
+        grid-row-gap: 30px;
+    }
+
+    .faq-section-container h2 {
+        font-size: 28px;
+    }
+
+    .faq-answer {
+        padding: 0px 0px;
+    }
+
+    .faq-answer p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    button.faq-question {
+        line-height: 25px;
+    }
+
+    .more-product-item {
+        margin-bottom: 30px;
+    }
+
+    .more-products .more-product-item .more-product-description p {
+        margin-top: 0px;
+    }
+
+    .footer-call-to-action h2 {
+        font-size: 33px;
+    }
 }
