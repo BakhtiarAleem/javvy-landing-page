@@ -236,7 +236,7 @@ function updateCart() {
       const savings = fullPrice - subtotal;
 
       subtotalElement.style.display = "inline-block";
-      savingElement.style.display = "inline-block";
+      savingElement.style.display = "none";
 
 
       subtotalEl.textContent = "$" + subtotal.toFixed(2);
